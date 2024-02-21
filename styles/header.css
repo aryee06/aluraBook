@@ -15,6 +15,10 @@
     background: var(--azul-degrade);
 }
 
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer{
+    background-image: url("../img/Menu Aberto.svg");
+}
+
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
